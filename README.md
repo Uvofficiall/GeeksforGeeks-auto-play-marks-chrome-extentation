@@ -84,6 +84,10 @@ A Chrome extension that automates GeeksforGeeks course learning by auto-playing 
 
 Feel free to submit issues and pull requests!
 
-## License
+- ## License
 
-MIT License - Feel free to use and modify.
+This project is licensed under the [MIT License](LICENSE).
+
+## Authors
+
+- [YUVRAJ SHARMA](https://github.com/Uvofficiall)

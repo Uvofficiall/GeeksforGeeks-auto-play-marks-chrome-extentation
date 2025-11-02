@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GFG Auto Play Next",
+  "version": "1.0",
+  "description": "Automatically plays next video when current GeeksforGeeks course video ends",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["*://*.geeksforgeeks.org/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.geeksforgeeks.org/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "GFG Auto Play"
+  }
+}
